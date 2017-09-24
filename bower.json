@@ -1,0 +1,26 @@
+{
+  "name": "next-concat",
+  "description": "Creates a new array joining a wrapped array with any additional arrays and/or values.",
+  "main": "dist/next-concat.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-concat",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}
