@@ -4,16 +4,13 @@ require('../src/next-concat');
 
 describe('next/concat', function () {
 
-  it('nx.mix', function () {
-    var obj1 = {name: 'fei'};
-    var obj2 = {email: '1290657123@qq.com'};
+  it('nx concat array', function () {
+    var arr1 = [1,2];
+    var arr2 = ['a'];
+    var result = nx.concat(arr1,arr2);
 
-    var result = {};
-
-    nx.mix(result, obj1, obj2);
-
-    assert.equal(result.name, obj1.name);
-    assert.equal(result.email, obj2.email);
+    assert.equal( result.length , 3);
+    assert.deepEqual( [1,2,'a'], result );
   });
 
 });

@@ -2,7 +2,11 @@
 > Creates a new array joining a wrapped array with any additional arrays and/or values.
 
 
-## resources:
+## usage:
+```js
+var arr1 = [1,2];
+var arr2 = ['a'];
+var result = nx.concat(arr1,arr2);
 
-## todos:
-- [ ] unit test case
+//[1,2,'a'];
+```
