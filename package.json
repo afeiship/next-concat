@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-concat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates a new array joining a wrapped array with any additional arrays and/or values.",
   "homepage": "https://github.com/afeiship/next-concat",
   "author": {
@@ -39,5 +39,9 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "concat",
+    "next"
+  ]
 }
